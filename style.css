@@ -1,0 +1,127 @@
+:root {
+    --color-principal: #b20000;
+    --color-secundario: #f5f5f5;
+    --color-fondo: #014050;
+    --color-texto: #ffffff;
+    --color-acento: #00ff99;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "seoge UI", Tahoma, Geneva, Verdana, Sans-serif;
+    color: var(--color-texto);
+    background-color: var(--color-fondo);
+    line-height: 1.6;
+}
+
+header {
+    background-color: var(--color-principal);
+    color: rgb(red, green, blue);
+    Padding: 20px 0;
+    box-shadow:0 2px 5px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+nav {
+    text-align: center;
+}
+
+nav a {
+    color: rgb(32, 1, 1);
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+    transition: color 0.3;
+}
+nav a:hover {
+    color: var(--color-secundario);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+section {
+    background-color: rgb(0,0,0);
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+
+}
+
+section h2{
+    color: var(--color-principal);
+    margin-bottom: 20px;
+    font-size: 24px;
+    border-bottom: 3px solid var(--color-secundario);
+    padding-bottom: 10px;
+
+}
+section p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: var(--color-secundario);
+    color: rgb(247, 0, 0);
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background-color: var(--color-acento);
+}
+
+footer {
+    background-color: var(--color-principal);
+    color: rgb(255, 0, 0);
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+footer p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 22px;
+    }
+
+    nav a {
+        display: block;
+        margin: 8px 0;
+    }
+
+    .container {
+        margin: 20px auto;
+    }
+
+    section {
+        padding: 20px;
+    }
+}
+
