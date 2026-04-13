@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bio Bio Descubre - Hotelería</title>
+    <title>Bio Bio Descubre</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <div class="topbar">
-            <div class="logo">Bio Bio <span>Descubre</span></div>
+            <div class="logo">Bio Bio Descubre</div>
             <nav>
                 <a href="#inicio">Inicio</a>
                 <a href="#destinos">Destinos</a>
@@ -18,122 +18,79 @@
                 <a href="#contacto">Contacto</a>
             </nav>
         </div>
-
-        <div class="hero">
-            <div class="hero-text">
-                <span class="eyebrow">Servicio de hotelería</span>
-                <h1>Encuentra hoteles y hospedaje en la región del Bio Bio</h1>
-                <p>Planifica tu viaje con recomendaciones reales, precios aproximados y opciones para toda la familia. Todo inspirado en el servicio de hotelería, pero con tu toque local.</p>
-                <a href="#hoteles" class="btn">Ver hoteles</a>
-            </div>
-            <div class="hero-cards">
-                <div class="hero-card">
-                    <h3>Reservas fáciles</h3>
-                    <p>Busca hoteles, compara precios y elige el que más te convenga.</p>
-                </div>
-                <div class="hero-card">
-                    <h3>Atención personalizada</h3>
-                    <p>Te mostramos opciones de hospedaje con descripciones simples y claras.</p>
-                </div>
-                <div class="hero-card">
-                    <h3>Viaja seguro</h3>
-                    <p>Información útil para que tu estadía sea cómoda y tranquila.</p>
-                </div>
-            </div>
-        </div>
     </header>
+
+    <div class="hero">
+        <h1>Bienvenido a Bio Bio Descubre</h1>
+        <p>Encuentra hoteles, destinos y actividades fáciles de entender para tu viaje por el Bio Bio.</p>
+        <a href="#hoteles" class="btn">Ver hoteles</a>
+    </div>
 
     <div class="container">
         <main class="main-content">
-            <section id="inicio" class="intro-section">
-                <h2>Bienvenidos a Bio Bio Descubre</h2>
-                <p>Bio Bio Descubre es una guía de viaje diseñada para ayudarte a conocer los mejores destinos, actividades y alojamientos de la región. Aquí encontrarás información clara y simple, con un estilo cercano y práctico.</p>
-
-                <div class="info-cards">
-                    <article>
-                        <h3>¿Cómo usar este sitio?</h3>
-                        <p>Explora destinos, compara hoteles y revisa planes de viaje en una sola página.</p>
-                    </article>
-                    <article>
-                        <h3>Información útil</h3>
-                        <p>Precios referenciales, descripciones cortas y opciones recomendadas.</p>
-                    </article>
-                    <article>
-                        <h3>Enfoque local</h3>
-                        <p>Contenido pensado para turistas que quieren conocer la región del Bio Bio.</p>
-                    </article>
-                </div>
+            <section id="inicio">
+                <h2>Sobre esta página</h2>
+                <p>Esta página muestra información simple sobre la región del Bio Bio, con recomendaciones de lugares y hoteles. Está pensada para ser clara y fácil de usar.</p>
             </section>
 
             <section id="destinos">
-                <h2>Destinos destacados</h2>
+                <h2>Destinos</h2>
                 <div class="destinos-grid">
                     <div class="card">
                         <h3>Concepción</h3>
-                        <p>La capital regional con cultura, gastronomía y vida urbana.</p>
+                        <p>Ciudad grande con vida cultural y muchas opciones para pasear.</p>
                     </div>
                     <div class="card">
                         <h3>Nahuelbuta</h3>
-                        <p>Bosques nativos y senderos para disfrutar la naturaleza.</p>
+                        <p>Parque nacional con bosques y caminatas para ver naturaleza.</p>
                     </div>
                     <div class="card">
                         <h3>Isla Santa María</h3>
-                        <p>Playas, historia y un clima ideal para descansar junto al mar.</p>
+                        <p>Playa tranquila para relajarse y disfrutar del mar.</p>
                     </div>
                 </div>
             </section>
 
             <section id="actividades">
-                <h2>Actividades recomendadas</h2>
+                <h2>Actividades</h2>
                 <ul class="actividades-list">
-                    <li>Recorrer el borde costero de Concepción y sus ferias locales.</li>
-                    <li>Subir a los miradores del Parque Nacional Nahuelbuta.</li>
-                    <li>Disfrutar de la playa y la tranquilidad en Isla Santa María.</li>
+                    <li>Pasear por el borde costero en Concepción.</li>
+                    <li>Hacer senderismo en Nahuelbuta.</li>
+                    <li>Ir a la playa en Isla Santa María.</li>
                 </ul>
             </section>
 
             <section id="contacto">
-                <h2>Contáctanos</h2>
+                <h2>Contacto</h2>
                 <form class="contacto-form">
                     <input type="text" placeholder="Tu nombre" required>
                     <input type="email" placeholder="Tu email" required>
-                    <textarea placeholder="Tu mensaje" rows="5" required></textarea>
+                    <textarea placeholder="Tu mensaje" rows="4" required></textarea>
                     <button type="submit" class="btn">Enviar</button>
                 </form>
             </section>
         </main>
 
         <aside id="hoteles" class="sidebar">
-            <div class="sidebar-box">
-                <h2>Hoteles recomendados</h2>
-                <p>Precios aproximados por noche y ubicaciones cercanas a los mejores puntos turísticos.</p>
+            <h2>Hoteles</h2>
+            <div class="hotel-item">
+                <h3>Hotel Plaza Concepción</h3>
+                <p>Desde $80.000 CLP/noche</p>
             </div>
-            <div class="hoteles-list">
-                <div class="hotel-item">
-                    <h3>Hotel Plaza Concepción</h3>
-                    <p>Ubicado en el centro de la ciudad, cerca de restaurantes y comercio.</p>
-                    <p class="precio">Desde $80.000 CLP/noche</p>
-                    <a href="#" class="btn">Reservar</a>
-                </div>
-                <div class="hotel-item">
-                    <h3>Cabañas Nahuelbuta</h3>
-                    <p>Alojamiento tranquilo en medio del bosque, ideal para descansar.</p>
-                    <p class="precio">Desde $60.000 CLP/noche</p>
-                    <a href="#" class="btn">Reservar</a>
-                </div>
-                <div class="hotel-item">
-                    <h3>Resort Isla Santa María</h3>
-                    <p>Complejo frente al mar con piscina y acceso directo a la playa.</p>
-                    <p class="precio">Desde $120.000 CLP/noche</p>
-                    <a href="#" class="btn">Reservar</a>
-                </div>
+            <div class="hotel-item">
+                <h3>Cabañas Nahuelbuta</h3>
+                <p>Desde $60.000 CLP/noche</p>
+            </div>
+            <div class="hotel-item">
+                <h3>Resort Isla Santa María</h3>
+                <p>Desde $120.000 CLP/noche</p>
             </div>
         </aside>
     </div>
 
     <footer>
-        <p>2026 Bio Bio Descubre. Todos los derechos reservados.</p>
-        <p>Contacto: alan.duran06@inacapmail.cl | Teléfono: +56 9 64300504</p>
+        <p>2026 Bio Bio Descubre</p>
+        <p> email: alan.duran06@inacapmai.cl telefono: +569 64300504</p>
     </footer>
 </body>
 </html>
